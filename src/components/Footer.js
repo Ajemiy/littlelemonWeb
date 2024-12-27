@@ -1,9 +1,15 @@
 import React from 'react'
+import Brand from './subcomponents/Brand'
 
 const Footer = () => {
   return (
-    <footer>
-      <h1>Footer</h1>
+    <footer className='bg-blacko'>
+      <div className='container'>
+        {/* <h1><Brand/></h1> */}
+        <div>
+
+        </div>
+      </div>
     </footer>
   )
 }
